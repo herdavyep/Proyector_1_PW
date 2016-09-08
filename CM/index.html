@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<h1>Calculadora de matrices</h1>
+<br>
+
+<form action="funciones.php" method="POST">
+	
+	<input type="text" name="a11" placeholder="0" required="" size="5" >
+	<input type="text" name="a12" placeholder="0" size="5" >
+	<input type="text" name="a13" placeholder="0" size="5" >
+	_______
+
+	<input type="text" name="b11" placeholder="0" size="5" >
+	<input type="text" name="b12" placeholder="0" size="5" >
+	<input type="text" name="b13" placeholder="0" size="5" >
+
+	<br>
+	
+	<input type="text" name="a21" placeholder="0" size="5" >
+	<input type="text" name="a22" placeholder="0" size="5" >
+	<input type="text" name="a23" placeholder="0" size="5" >
+	_______
+	
+	<input type="text" name="b21" placeholder="0" size="5" >
+	<input type="text" name="b22" placeholder="0" size="5" >
+	<input type="text" name="b23" placeholder="0" size="5" >
+	
+	<br>
+	
+	<input type="text" name="a31" placeholder="0" size="5" >
+	<input type="text" name="a32" placeholder="0" size="5" >
+	<input type="text" name="a33" placeholder="0" size="5" >
+	_______
+	
+	<input type="text" name="b31" placeholder="0" size="5" >
+	<input type="text" name="b32" placeholder="0" size="5" >
+	<input type="text" name="b33" placeholder="0" size="5" >
+
+	<br><br>
+
+	Operaciones de Matriz A: 
+	
+	<br>
+
+	<button name="opcion" value="1">Determinante</button>
+	<button name="opcion" value="2">Matriz Inversa</button>
+	<button name="opcion" value="3">Matriz Transpuesta</button>
+	
+	<br>
+
+	<button name="opcion" value="4">Multiplicar por</button>
+	<input type="text" name="multi" placeholder="0" size="3">
+	
+	<button name="opcion" value="5">Elevado por</button>
+	<input type="text" name="elev" placeholder="0" size="3">
+
+	<br><br>
+
+	Operaciones de Matriz (A y B): 
+
+	<br>
+
+	<button name="opcion" value="6">(A+B)</button>
+	<button name="opcion" value="7">(A-B)</button>
+	<button name="opcion" value="8">(A*B)</button>
+
+</form>
+	
+</body>
+</html>
